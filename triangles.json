@@ -1,0 +1,5 @@
+{"triangles":[
+    {"neighbors":[-1,1,-1],"points":[0,3,4]},
+    {"neighbors":[0,-1,2],"points":[1,0,4]},
+    {"neighbors":[1,-1,-1],"points":[2,0,1]}
+]}
