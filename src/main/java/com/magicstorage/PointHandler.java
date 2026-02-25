@@ -138,6 +138,8 @@ public class PointHandler {
             array1[4] = array1[2];
             array1[2] = temp;
         }
-        return array;
+        if (isTriangulable(array)) return array;
+        else System.out.println("The data your trying to flip isn't triangulable");
+        return new double[0][0];
     }
 }
